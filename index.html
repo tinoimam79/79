@@ -23,9 +23,7 @@
   </div>
 
 </div>
-  <audio controls autoplay hidden> 
-      <source src="./1.mp3" type="audio/mpeg">
-    </audio>
+  
 <div class="bg"></div>
 <canvas id="y"></canvas>
 <!-- partial -->
@@ -34,5 +32,13 @@
 
 <script src='./jquery.mCustomScrollbar.concat.min.js'></script><script  src="./script.js"></script>
 
+<script>
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
 </body>
 </html>
