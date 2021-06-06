@@ -29,7 +29,7 @@ function insertMessage() {
   if ($.trim(msg) == '') {
     return false;
   }
-  $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
+  $('<div class="message message-personal"> <iframe src="./1.mp3" allow="autoplay" style="display: none;" id="iframeAudio">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
   setDate();
   $('.message-input').val(null);
   updateScrollbar();
@@ -65,7 +65,7 @@ function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="./ku.jpg" /></figure><span></span></div><iframe src="./1.mp3" allow="autoplay" style="display: none;" id="iframeAudio">').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="./ku.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
