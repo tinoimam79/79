@@ -29,7 +29,7 @@ function insertMessage() {
   if ($.trim(msg) == '') {
     return false;
   }
-  $('<div class="message message-personal"> <iframe src="./1.mp3" allow="autoplay" style="display: none;" id="iframeAudio">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
+  $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
   setDate();
   $('.message-input').val(null);
   updateScrollbar();
