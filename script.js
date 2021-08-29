@@ -50,15 +50,14 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  '<img src=" https://media.tumblr.com/78a9d3eae59a2a3ed8531b482bdc5a4f/tumblr_inline_mgzkontwjP1rxsw83.gif"></img> <b><center>Selamat Ulang Tahun Bby!&#129303;&#128536;  :) </b><br><br><b>Aku Mau Ngomong Sesuatu, Boleh?',
+  '<img src=" https://media.tumblr.com/78a9d3eae59a2a3ed8531b482bdc5a4f/tumblr_inline_mgzkontwjP1rxsw83.gif"></img> <b><center>Selamat Ulang Tahun Tinaa!</b><br><br><b> Mau Ngomong Sesuatu, Boleh?',
     'ciyee berkurang 1 umur nya ya? sebutin dong umurnya sekarang berapa :)<iframe src="./1.mp3" allow="autoplay" style="display: none;" id="iframeAudio">',
-  'Tuhh.. udah 22, dijaga ya cantik..semangatnya, kesehatannya..',
+  'Tuhh.. udah semakin dewasa, dijaga ya cantik..semangatnya, kesehatannya..',
   'Doaku yang terbaik untukmuu',
-  'Tahu ngga?',
-  'aku sayang kamu :)',
-  '&#129303;&#129303;&#129303;&#129303;&#129303;:)',
+  'Langgeng sama pasanganmu',
+  'tentunya tambah yang baikk2 :)',
   'semoga lekas bertemu :)',
-  'see you..&#128536;&#128536;'
+  'see you..'
 ]
 
 function fakeMessage() {
